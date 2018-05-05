@@ -9,8 +9,9 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 
 import Root from './src/root'
+import CombineReducers from './src/reducers'
 
-const store = createStore(()=>[])
+const store = createStore(CombineReducers)
 
 
 export default class App extends Component<Props> {
