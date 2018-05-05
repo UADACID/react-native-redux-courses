@@ -38,7 +38,7 @@ class Root extends Component {
                 <Text style={styles.task}>{item}</Text>
                 <Text
                   style={styles.taskRemove}
-                  onPress={()=>removeTodo(index)}>remove</Text>
+                  onPress={()=>removeTodo(index)}> remove </Text>
               </View>
             )
           })}
